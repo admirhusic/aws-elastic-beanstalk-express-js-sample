@@ -8,5 +8,7 @@ app.get("/demo", (req, res) =>
   res.send("This is a demo endpoint with a new change")
 )
 
+app.get("/users", (req, res) => res.send("Users..."))
+
 app.listen(port)
 console.log(`App running on http://localhost:${port}`)
